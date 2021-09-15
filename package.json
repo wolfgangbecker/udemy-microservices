@@ -4,7 +4,7 @@
   "description": "Project from \"Microservices with Node JS and React\"",
   "main": "index.js",
   "scripts": {
-    "start": "run-p start:client start:posts start:comments start:query start:moderation start:event-bus",
+    "start": "run-p start:client start:posts start:comments start:moderation start:event-bus",
     "start:client": "cd client; npm start",
     "start:posts": "cd posts; npm start",
     "start:comments": "cd comments; npm start",
